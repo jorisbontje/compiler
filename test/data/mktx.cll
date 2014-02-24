@@ -1,0 +1,4 @@
+x = tx.datan
+y = tx.data[0]
+z = tx.sender
+mktx(z,10^18,0,0)

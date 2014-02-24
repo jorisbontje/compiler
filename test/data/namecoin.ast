@@ -1,0 +1,12 @@
+['seq',
+ ['if',
+  ['<=', 'tx.value', ['*', '25', ['^', '10', '18']]],
+  'stop',
+  ['if',
+   ['or',
+    ['access', 'contract.storage', ['access', 'tx.data', '0']],
+    ['<', ['access', 'tx.data', '0'], '1000']],
+   'stop']],
+ ['set',
+  ['access', 'contract.storage', ['access', 'tx.data', '0']],
+  ['access', 'tx.data', '1']]]

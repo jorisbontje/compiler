@@ -1,0 +1,5 @@
+['seq',
+    ['set', 'x', 'tx.datan'],
+    ['set', 'y', ['access', 'tx.data', '0']],
+    ['set', 'z', 'tx.sender'],
+    ['fun', 'mktx', 'z', ['^', '10', '18'], '0', '0']]

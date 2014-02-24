@@ -1,0 +1,4 @@
+['seq', ['set', 'x', ['fun', 'array']],
+        ['set', ['access', 'x', '0'], '4'],
+        ['set', ['access', 'x', '1'], '6'],
+        ['set', ['access', 'x', '2'], '8']]

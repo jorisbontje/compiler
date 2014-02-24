@@ -1,0 +1,6 @@
+i = 0
+a = 1
+while i < 997:
+    a = (a * 3) % 997
+    i = i + 1
+contract.storage[-1] = a
